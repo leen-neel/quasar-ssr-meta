@@ -1,41 +1,11 @@
-# Quasar App (quasar-ssr-meta)
+# Quasar SSR Meta
 
-A Quasar Project
+To run/test this repo, follow the following steps.
 
-## Install the dependencies
 ```bash
-yarn
-# or
-npm install
+npm i
+quasar dev -m ssr
+ssh -R 80:localhost:9100 nokey@localhost.run
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+You can now test the meta tags using [Metatags](https://metatags.io/)
